@@ -3,8 +3,8 @@ Proof of concept: RxJS
 # Requirements
 * Node.js
 
-# Creatinf from scratch
-To crete `package.json`:
+# Creating from scratch
+To create `package.json`:
 
 ```
 npm init
