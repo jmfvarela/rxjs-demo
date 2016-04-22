@@ -12,5 +12,5 @@ npm install rx --save
 
 # Executing all
 ```
-npm start
+node test.js
 ```
