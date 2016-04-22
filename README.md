@@ -3,14 +3,17 @@ Proof of concept: RxJS
 # Requirements
 * Node.js
 
-# Creation
+# Creatinf from scratch
+To crete `package.json`:
+
 ```
 npm init
 
 npm install rx --save
 ```
 
-# Executing all
+# Executing demo scripts
+Initial hello world
 ```
 node test.js
 ```
