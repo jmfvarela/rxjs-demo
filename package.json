@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jmfvarela/rxjs-demo#readme",
   "dependencies": {
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "node-fetch": "^1.5.1",
+    "cheerio": "^0.20.0"
   }
 }
