@@ -58,10 +58,19 @@ pageRequest
     download(url, filename);
   });
 
+// Buscar en la página del primer capítulo el "serieId"
+const petParade = 'http://www.rtve.es/api/programas/97070/videos.json';
+const babyLooneyTunes = 'http://www.rtve.es/api/programas/38373/videos.json';
+const tomJerry = 'http://www.rtve.es/api/programas/38430/videos.json';
+const miffy = 'http://www.rtve.es/api/programas/99710/videos.json';
+const octonautas = 'http://www.rtve.es/api/programas/99410/videos.json';
+const chloe = 'http://www.rtve.es/api/programas/75611/videos.json';
 
-const petParade = 'http://www.rtve.es/api/programas/97070/videos';
-const babyLooneyTunes = 'http://www.rtve.es/api/programas/38373/videos';
-pageRequest.onNext(petParade);
-pageRequest.onNext(babyLooneyTunes);
+//pageRequest.onNext(petParade);
+//pageRequest.onNext(babyLooneyTunes);
+//pageRequest.onNext(tomJerry);
+//pageRequest.onNext(miffy);
+//pageRequest.onNext(octonautas);
+pageRequest.onNext(chloe);
 pageRequest.onCompleted();
 
