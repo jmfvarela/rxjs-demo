@@ -1,0 +1,1 @@
+for %%A IN (*.mp4) DO C:\backup\tools\ffmpeg\ffmpeg.exe -i "%%A" -c:v libxvid -qscale:v 10 -vf scale=640:trunc(ow/a/2)*2 "%%A.avi"
